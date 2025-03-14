@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://xanhri.vn/about3/">
+        <link rel="canonical" href="https://xanhri.vn/introduce1/">
       
       
-        <link rel="prev" href="../about2/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../about/">
+        <link rel="next" href="../introduce2/">
       
       
       <link rel="icon" href="../assets/images/logo.ico">
@@ -22,7 +22,7 @@
     
     
       
-        <title>CPV FOOD - Xanhri</title>
+        <title>Triết Lý Kinh Doanh - Xanhri</title>
       
     
     
@@ -112,34 +112,32 @@
             </label>
         </div>
         <div class="custom-header-item">
-            <div class="custom-header-item-site-button">
-                <div class="custom-dropdown-btn-container">
-                    <button class="custom-dropbtn">
-                      <span>Xanhri</span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></span>
-                    </button>
-                    <div class="custom-dropdown-content">
-                      <a href="/feed">Feed</a>
-                      <a href="/farm">Farm</a>
-                      <a href="/food">Food</a>
-                    </div>
-                </div>
-                <div class="custom-dotmap">
-                  <img src="assets/images/dotmap.webp">
-                </div>
-                <div class="custom-dotmap">
-                  <button class="custom-flag-btn">
-                    <img class="custom-flag" src="assets/images/flag-vn.png">
-                  </button>
+          <div class="custom-header-item-site-button">
+            <div class="custom-dropdown-btn-container">
+                <button class="custom-dropbtn" onclick="dropdown_header()">
+                  <span>Xanhri</span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg></span>
+                </button>
+                <div class="custom-dropdown-content-btn" id="dropdown-header">
+                  <a href="/feed">Feed</a>
+                  <a href="/farm">Farm</a>
+                  <a href="/food">Food</a>
                 </div>
             </div>
-            <!-- Navigation tabs (sticky) -->
-            
-                
-                
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-grid">
-    <ul class="md-tabs__list">
-      
+            <div class="custom-dotmap">
+              <img src="/assets/images/dotmap.webp">
+            </div>
+            <div class="custom-flag-container">
+              <button class="custom-flag-btn">
+                <img class="custom-flag" src="/assets/images/flag-vn.png">
+              </button>
+            </div>
+          </div>
+          <!-- Navigation tabs (sticky) -->
+          
+              
+              
+  <div class="custom-header-nav">
+    
         
 
   <!-- Determine classes -->
@@ -147,7 +145,7 @@
   
 
   
-    <li class="md-tabs__item">
+    <div class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
 
@@ -160,10 +158,10 @@
   Trang chủ
 
       </a>
-    </li>
+    </div>
   
 
-      
+    
         
 
   <!-- Determine classes -->
@@ -174,7 +172,7 @@
 
   
     
-    <li class="md-tabs__item md-tabs__item--active custom-dropdown">
+    <div class="md-tabs__item md-tabs__item--active custom-dropdown">
       <div>
         <a href="#" class="md-tabs__link">
           
@@ -189,7 +187,7 @@
       </div>
       <div class="custom-dropdown-content">
         
-          <a href="../about/">
+          <a href="./">
             
 
   <!-- Navigation link icon -->
@@ -200,7 +198,7 @@
 
           </a>
         
-          <a href="../about1/">
+          <a href="../introduce2/">
             
 
   <!-- Navigation link icon -->
@@ -211,7 +209,7 @@
 
           </a>
         
-          <a href="../about2/">
+          <a href="../introduce3/">
             
 
   <!-- Navigation link icon -->
@@ -222,7 +220,7 @@
 
           </a>
         
-          <a href="./">
+          <a href="../introduce4/">
             
 
   <!-- Navigation link icon -->
@@ -234,12 +232,12 @@
           </a>
         
       </div>
-    </li>
+    </div>
 
   <!-- Navigation item -->
   
 
-      
+    
         
 
   <!-- Determine classes -->
@@ -248,7 +246,7 @@
 
   
     
-    <li class="md-tabs__item custom-dropdown">
+    <div class="md-tabs__item custom-dropdown">
       <div>
         <a href="#" class="md-tabs__link">
           
@@ -263,46 +261,46 @@
       </div>
       <div class="custom-dropdown-content">
         
-          <a href="../about/">
+          <a href="../product1/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Food
 
           </a>
         
-          <a href="../about/">
+          <a href="../product2/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Feed
 
           </a>
         
-          <a href="../about/">
+          <a href="../product3/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Farm
 
           </a>
         
       </div>
-    </li>
+    </div>
 
   <!-- Navigation item -->
   
 
-      
+    
         
 
   <!-- Determine classes -->
@@ -311,7 +309,7 @@
 
   
     
-    <li class="md-tabs__item custom-dropdown">
+    <div class="md-tabs__item custom-dropdown">
       <div>
         <a href="#" class="md-tabs__link">
           
@@ -326,153 +324,68 @@
       </div>
       <div class="custom-dropdown-content">
         
-          <a href="../about/">
+          <a href="../development1/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Thông điệp
 
           </a>
         
-          <a href="../about/">
+          <a href="../development2/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Hướng bền vững công ty
 
           </a>
         
-          <a href="../about/">
+          <a href="../development3/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Tin tức hoạt động
 
           </a>
         
-          <a href="../about/">
+          <a href="../development4/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Ấn phẩm | Tạp chí
 
           </a>
         
-          <a href="../about/">
+          <a href="../development5/">
             
 
   <!-- Navigation link icon -->
   
 
   <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
+  Hành Trình Vì Việt Nam xanh
 
           </a>
         
       </div>
-    </li>
+    </div>
 
   <!-- Navigation item -->
   
 
-      
-        
-
-  <!-- Determine classes -->
-  
-  
-
-  
     
-    <li class="md-tabs__item custom-dropdown">
-      <div>
-        <a href="#" class="md-tabs__link">
-          
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Truyền thông
-
-        </a>
-      </div>
-      <div class="custom-dropdown-content">
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-      </div>
-    </li>
-
-  <!-- Navigation item -->
-  
-
-      
         
 
   <!-- Determine classes -->
@@ -480,48 +393,7 @@
   
 
   
-    
-    <li class="md-tabs__item custom-dropdown">
-      <div>
-        <a href="#" class="md-tabs__link">
-          
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Tuyển Dụng
-
-        </a>
-      </div>
-      <div class="custom-dropdown-content">
-        
-          <a href="../about/">
-            
-
-  <!-- Navigation link icon -->
-  
-
-  <!-- Navigation link title -->
-  Triết Lý Kinh Doanh
-
-          </a>
-        
-      </div>
-    </li>
-
-  <!-- Navigation item -->
-  
-
-      
-        
-
-  <!-- Determine classes -->
-  
-  
-
-  
-    <li class="md-tabs__item">
+    <div class="md-tabs__item">
       <a href="../contact/" class="md-tabs__link">
         
 
@@ -534,16 +406,15 @@
   Liên hệ
 
       </a>
-    </li>
+    </div>
   
 
-      
-    </ul>
+    
   </div>
-</nav>
-                
-            
+              
+          
         </div>
+        <div class="dropdown-wrap" id="dropdown-wrap" onclick="dropdown_header_cancel()"></div>
       </div>
   </nav>
 </header>
@@ -564,23 +435,34 @@
                     
 
 
-  
+
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
+<label class="md-nav__title" for="__drawer">
     <a href=".." title="Xanhri" class="md-nav__button md-logo" aria-label="Xanhri" data-md-component="logo">
-      
+    
   <img src="../assets/images/logo.png" alt="logo">
 
     </a>
-    Xanhri
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
+</label>
+<div class="nav-custom-dropdown-btn-container">
+    <button class="custom-dropbtn" onclick="dropdown_sidebar()" id="dropdown_sidebar_btn">
+      <span id="dropdown_sidebar_span">Xanhri</span> <span id="dropdown_sidebar_icon" class="twemoji">
+        <svg id="dropdown_sidebar_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="dropdown_sidebar_path" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg>
+        </span>
+    </button>
+    <div class="custom-dropdown-content-btn" id="dropdown-sidebar">
+      <a href="/feed">Feed</a>
+      <a href="/farm">Farm</a>
+      <a href="/food">Food</a>
+    </div>
+</div>
+
+<ul class="md-nav__list" data-md-scrollfix>
     
-      
-      
+    
+    
   
   
   
@@ -599,8 +481,8 @@
   
 
     
-      
-      
+    
+    
   
   
     
@@ -646,10 +528,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -658,6 +547,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -670,7 +560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about1/" class="md-nav__link">
+      <a href="../introduce2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -691,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about2/" class="md-nav__link">
+      <a href="../introduce3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -709,17 +599,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../introduce4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -728,7 +611,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -741,8 +623,8 @@
   
 
     
-      
-      
+    
+    
   
   
   
@@ -786,11 +668,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../product1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Food
   </span>
   
 
@@ -807,11 +689,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../product2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Feed
   </span>
   
 
@@ -828,11 +710,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../product3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Farm
   </span>
   
 
@@ -849,8 +731,8 @@
   
 
     
-      
-      
+    
+    
   
   
   
@@ -894,11 +776,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../development1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Thông điệp
   </span>
   
 
@@ -915,11 +797,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../development2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Hướng bền vững công ty
   </span>
   
 
@@ -936,11 +818,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../development3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Tin tức hoạt động
   </span>
   
 
@@ -957,11 +839,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../development4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Ấn phẩm | Tạp chí
   </span>
   
 
@@ -978,11 +860,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../development5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
+    Hành Trình Vì Việt Nam xanh
   </span>
   
 
@@ -999,224 +881,8 @@
   
 
     
-      
-      
-  
-  
-  
-  
     
     
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Truyền thông
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Truyền thông
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Tuyển Dụng
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            Tuyển Dụng
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Triết Lý Kinh Doanh
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
   
   
   
@@ -1235,7 +901,7 @@
   
 
     
-  </ul>
+</ul>
 </nav>
                   </div>
                 </div>
@@ -1266,7 +932,7 @@
                   
 
 
-  <h1>CPV FOOD</h1>
+  <h1>Triết Lý Kinh Doanh</h1>
 
 
 
@@ -1291,22 +957,148 @@
         
       </main>
       
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
+        <footer class="custom-footer-container">
+    
+      <div class="md-grid custom-footer-link-container">
+        
+            <div class="custom-footer-item">
+                <a href="..">Trang chủ</a>
+                
+            </div>
+        
+            <div class="custom-footer-item">
+                <a href="..">Giới Thiệu</a>
+                
+                    
+                        <a href="introduce1/" class="custom-footer-item-child">
+                            Triết Lý Kinh Doanh
+                        </a>
+                    
+                        <a href="introduce2/" class="custom-footer-item-child">
+                            Tầm Nhìn & Sứ Mệnh
+                        </a>
+                    
+                        <a href="introduce3/" class="custom-footer-item-child">
+                            Về C.P. Việt Nam
+                        </a>
+                    
+                        <a href="introduce4/" class="custom-footer-item-child">
+                            CPV FOOD
+                        </a>
+                    
+                
+            </div>
+        
+            <div class="custom-footer-item">
+                <a href="..">Sản phẩm</a>
+                
+                    
+                        <a href="product1/" class="custom-footer-item-child">
+                            Food
+                        </a>
+                    
+                        <a href="product2/" class="custom-footer-item-child">
+                            Feed
+                        </a>
+                    
+                        <a href="product3/" class="custom-footer-item-child">
+                            Farm
+                        </a>
+                    
+                
+            </div>
+        
+            <div class="custom-footer-item">
+                <a href="..">Phát triển bền vững</a>
+                
+                    
+                        <a href="development1/" class="custom-footer-item-child">
+                            Thông điệp
+                        </a>
+                    
+                        <a href="development2/" class="custom-footer-item-child">
+                            Hướng bền vững công ty
+                        </a>
+                    
+                        <a href="development3/" class="custom-footer-item-child">
+                            Tin tức hoạt động
+                        </a>
+                    
+                        <a href="development4/" class="custom-footer-item-child">
+                            Ấn phẩm | Tạp chí
+                        </a>
+                    
+                        <a href="development5/" class="custom-footer-item-child">
+                            Hành Trình Vì Việt Nam xanh
+                        </a>
+                    
+                
+            </div>
+        
+            <div class="custom-footer-item">
+                <a href="../contact/">Liên hệ</a>
+                
+            </div>
+        
+      </div>
+    
+    <div class="md-grid custom-footer-contact">
+        <div class="custom-footer-contact-item custom-contact">
+            <a href="#" class="link label">Liên hệ</a>
+            <div class="hotline">
+                <div class="label content">Điện thoại:</div>
+                <a href="tel:0251 3836 251">0251 3836 251</a>
+            </div>
+            <div class="email">
+                <div class="label content">Email:</div>
+                <a href="mailto:ocxanh@xanhri.vn">ocxanh@xanhri.vn</a>
+            </div>
+            <div>
+                <div class="label">Xem bản đồ &nbsp;</div>
+                <a href="#" class="link-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>map-marker</title><path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" /></svg>
+                </a>
+            </div>
+        </div>
+        <div class="custom-footer-contact-item custom-social">
+            <div class="social">
+                <div class="label">Theo dõi chúng tôi&nbsp;</div>
+                <a class="link-svg" href="#" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>facebook</title><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z" /></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="md-grid custom-footer-copyright">
+        <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 - 2028 Xanhri.vn
+      © 2022 Xanhri.vn. Tất cả các quyền được bảo hộ.
     </div>
   
   
 </div>
-      
+        <div class="copyright-links">
+            <a href="#" class="copyright-link-item">Chính sách bảo mật</a>
+            <a href="#" class="copyright-link-item">Thoả thuận sử dụng</a>
+            <a href="#" class="copyright-link-item">Cookies</a>
+            <a href="#" class="copyright-link-item">Site map</a>
+        </div>
     </div>
-  </div>
-</footer>
+    <!-- <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2022 Xanhri.vn. Tất cả các quyền được bảo hộ.
+    </div>
+  
+  
+</div>
+        
+      </div>
+    </div> -->
+  </footer>
       
     </div>
     <div class="md-dialog" data-md-component="dialog">
@@ -1314,7 +1106,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.footer"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
