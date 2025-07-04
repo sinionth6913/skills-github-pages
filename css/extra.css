@@ -555,15 +555,61 @@ body {
   margin-top: 20px;
 }
 
-.md-content.md-content--post>article>h1 {
-  color: #333 !important;
-}
-
+.md-content.md-content--post>article>h2,
 .md-content.md-content--post>article>h3 {
   color: #333;
   font-weight: 600;
 }
 
+.md-content>article>h1:first-child {
+  display: none;
+}
+
+.custom-contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-contact-title {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+
+.custom-contact-right>.custom-contact-title {
+  text-align: center;
+}
+
+.custom-contact-item>h3 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.custom-contact-item>p {
+  font-size: 14px;
+}
+
+.custom-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.custom-contact-form>textarea {
+  padding: 10px;
+}
+
+.custom-contact-form>button {
+  background-color: #019934;
+  color: #fff;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.custom-contact-form>button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 
 @media only screen and (max-width: 768px) {
   .custom-header-nav {
@@ -645,6 +691,14 @@ body {
 
   .md-nav--primary .md-nav__item {
     border-top: none;
+  }
+
+  .follow-fb-pc {
+    display: none;
+  }
+
+  .follow-fb-mobile {
+    display: block;
   }
 
   .custom-home-des {
@@ -752,6 +806,14 @@ body {
   .custom-home-business-item-des {
     font-size: 12px;
   }
+
+  .custom-contact-container {
+    flex-direction: column;
+  }
+
+  .custom-contact-left {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -787,6 +849,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .follow-fb-pc {
+    display: block;
+  }
+
+  .follow-fb-mobile {
+    display: none;
   }
 
   .custom-home-introduce {
@@ -888,5 +958,10 @@ body {
   .custom-home-blog-right-container>.custom-home-blog-main>p:last-child {
     font-size: 12px;
     margin: 3px;
+  }
+
+  .custom-contact-left,
+  .custom-contact-right {
+    width: 600px;
   }
 }
